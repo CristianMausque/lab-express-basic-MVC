@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        {{#each AllCoasters}}
+        <div class="col-md-4 mb-4">
+            <article class="card p-4">
+                <img src="{{imageUrl}}" alt="{{title}}">
+                <p>{{title}}</p>
+                <p>{{description}}</p>
+                <p>{{length}}</p>
+                <p>{{inversions}}</p>
+            </article>
+        </div>
+        {{/each}}
+    </div>
+    <a href="/" class="btn btn-dark">Home!</a>
+</div>
